@@ -1,3 +1,5 @@
+// Bukan BruteForce :(
+
 #include<bits/stdc++.h> 
 using namespace std; 
   
