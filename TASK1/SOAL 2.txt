@@ -1,0 +1,14 @@
+Untuk mencari kompleksitas dari algoritma BinarySearch,kita harus menghitung berapa kali 
+kita harus membagi 2 N(mis. panjang array) agar menghasilkan 1 sesuai konsep BinarySearch 
+yang akan membagi 2 sampai elem yg dicari ditemukan. Jika di ilustrasikan :
+N/2, lalu N/2*1/2, lalu N/2*1/2*1/2 .... dst sampai menghasilkan 1.
+Jadi didapat :
+1 = N/2^x
+(kita hilangkan pembaginya)
+2^x=N
+(gunakan log2)
+log2(2^x)=log2(N)
+x*log2(2)=log2(N)
+x*1 = log2(N)
+
+jadi didapatlah O(log(n))
