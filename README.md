@@ -1,0 +1,2 @@
+# task
+TUGAS MINGGU KE-1
