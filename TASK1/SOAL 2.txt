@@ -6,9 +6,9 @@ Jadi didapat :
 1 = N/2^x
 (kita hilangkan pembaginya)
 2^x=N
-(gunakan log2)
-log2(2^x)=log2(N)
-x*log2(2)=log2(N)
-x*1 = log2(N)
+(gunakan 2log)
+2log(2^x)=2log(N)
+x*2log(2)=2log(N)
+x*1 = 2log(N)
 
 jadi didapatlah O(log(n))
