@@ -1,5 +1,6 @@
 // Bukan BruteForce :(
 
+
 #include<bits/stdc++.h> 
 using namespace std; 
   
@@ -8,11 +9,11 @@ using namespace std;
   
 int shortestDist(int graph[N][N]) { 
     int dist[N]; 
-  
+    //disini akan dimulai dari stage paling akhir
     dist[N-1] = 0; 
     for (int i = N-2 ; i >= 0 ; i--) { 
         dist[i] = INF; 
-      
+        //akan bergerak dari node di stage tersebut ke node selanjutnya
         for (int j = i ; j < N ; j++){ 
             if (graph[i][j] == INF) 
                 continue; 
