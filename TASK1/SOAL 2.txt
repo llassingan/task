@@ -3,7 +3,7 @@ kita harus membagi 2 N(mis. panjang array) agar menghasilkan 1 sesuai konsep Bin
 yang akan membagi 2 sampai elem yg dicari ditemukan. Jika di ilustrasikan :
 N/2, lalu N/2*1/2, lalu N/2*1/2*1/2 .... dst sampai menghasilkan 1.
 Jadi didapat :
-1 = N/2^x
+1 = [N/2^x]   (flooring)
 (kita hilangkan pembaginya)
 2^x=N
 (gunakan 2log)
